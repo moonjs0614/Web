@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- 속성 = 속성값 atrribute -->
+<html lang="en">
+<head>
+    <!-- ctrl + / => 주석 -->
+    <!-- <열린 태그> </닫힌 태그> 
+          <열린태그 + 닫힌태그>-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목</title>
+</head>
+<body>
+    
+</body>
+</html>
