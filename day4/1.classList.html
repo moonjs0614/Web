@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>HELLO</div>
+
+    <script>
+        const div = document.querySelector("div");
+
+        // element.classList.add("String") -> 추가
+        div.classList.add("test")
+
+        // classList.remove("String") -> 삭제
+        div.classList.remove("test")
+        
+        // classList.toggle("String") -> 켜져있으면 끄고, 꺼져있으면 켜기
+        div.classList.toggle("test")
+        div.classList.toggle("test")
+
+        // classList.contains
+        const result = div.classList.contains("test")
+        console.log(result);
+
+        div.classList.add("hello");
+        // classList.replace
+        div.classList.replace("hello", 'hi');
+
+    </script>
+
+</body>
+</html>

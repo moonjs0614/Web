@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bg-yellow{
+        background-color: yellow;
+    }
+</style>
+<body>
+    <button id = "add">class 추가</button>
+    <button id = "remove">class 제거</button>
+    <button id = "toggle">class 토글</button>
+
+    <script>
+        const bg = document.querySelector('body');
+        let add = document.querySelector('#add')
+        let remove = document.querySelector('#remove')
+        let toggle = document.querySelector('#toggle')
+
+        add.addEventListener('click', ADD);
+        remove.addEventListener('click', REMOVE);
+        toggle.addEventListener('click', TOGGLE);
+
+        function ADD(){
+            bg.classList.add("bg-yellow");
+        }
+        function REMOVE(){
+            bg.classList.remove("bg-yellow");
+        }
+        function TOGGLE(){
+            bg.classList.toggle("bg-yellow");
+        }
+    </script>
+</body>
+</html>
