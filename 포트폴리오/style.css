@@ -1,0 +1,96 @@
+.carousel-item img{
+    height: 100vh;
+}
+
+.min-height-100{
+    min-height: 100vh;
+}
+
+.list-group{
+    display: flex;
+    align-items: center;
+}
+
+.list-group-flush{
+    display: flex;
+    align-items: stretch;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card{
+    background-color:rgb(226, 250, 246)
+}
+
+.list-group-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    display: flex;
+}
+
+.progress{
+    height: 40px;
+}
+
+.lang{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: azure;
+    border-radius: 20px;
+
+}
+
+.list-lang{
+    height: 250px;
+    border: 8px solid rgb(240, 239, 239);
+    border-radius: 15px;
+    background-color:cornsilk;
+    width: 80%;
+}
+
+.lang-cpp{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.lang-py{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.lang-text{
+    font-weight: bold;
+    font-size: 40px;
+    width: 160px;
+    height: 65px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.progress{
+    border: 2px solid rgb(194, 194, 194);
+    margin-left: 5px;
+}
+
+.progress-bar{
+    background-color: rgb(13, 238, 25);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
