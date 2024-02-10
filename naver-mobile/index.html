@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="body">
+    <header class="header">
+      <ul class="header-list-wrapper">
+        <i class="bi bi-list"></i>
+        <i class="bi bi-menu-button-wide"></i>
+      </ul>
+    </header>
+
+    <main class="main-container">
+      <!-- 로고 -->
+      <a href="https://naver.com/">
+        <h1>
+          <img class="logo" src="./images/naver-logo.jpg">
+        </h1>
+      </a>
+
+      <!-- 검색 -->
+      <div class="search-container">
+        <input class="search-input" type="text" placeholder="검색어를 입력해주세요.">
+      </div>
+
+
+      <!-- 북마크 -->
+      <section class="bookmark-section">
+        <a href="https://new-m.pay.naver.com/pcpay?page=1" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/pay.jpg">
+          </div>
+          <div class="bookmark-text" style="color:black">네이버 페이</div>
+        </a>
+
+        <a href="https://shopping.naver.com/home" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/shop.jpg">
+          </div>
+          <div class="bookmark-text" style="color:black">네이버 쇼핑</div>
+        </a>
+
+        <a href="https://comic.naver.com/index" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/webtoon.png">
+          </div>
+          <div class="bookmark-text" style="color:black">네이버 웹툰</div>
+        </a>
+
+        <a href="https://tv.naver.com/" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/now.png">
+          </div>
+          <div class="bookmark-text" style="color:black">NOW</div>
+        </a>
+
+        <a href="https://mail.naver.com/v2/folders/0/all" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/mail.png">
+          </div>
+          <div class="bookmark-text" style="color:black">메일</div>
+        </a>
+
+        <a href="https://section.cafe.naver.com/ca-fe/home" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/cafe.jpg">
+          </div>
+          <div class="bookmark-text" style="color:black">카페</div>
+        </a>
+
+        <a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/blog.png">
+          </div>
+          <div class="bookmark-text" style="color:black">블로그</div>
+        </a>
+
+        <a href="#none" class="bookmark-item">
+          <div class="img-icon-wrapper">
+            <img src="./images/dot.png">
+          </div>
+          <div class="bookmark-text" style="color:black"></div>
+        </a>
+      </section>
+
+
+    </main>
+
+    <footer class="footer">
+      <!-- 라이브방송 -->
+        <div class="live-stream">
+          <a href="https://chzzk.naver.com/"><img src="./images/live.jpg" width="150px"></a>
+            <div class="czz-container">
+              <div class="czz1">네이버의 새로운 게임 스트리밍 플랫폼</div>
+              <div class="czz2">치지직</div>
+            </div>
+          <div class="right">
+            <i class="bi bi-chevron-right"></i>
+          </div>
+        </div>
+      <!-- QR 체크인 -->
+      <div class="QR">
+        <div class="text-phone">
+          <div class="QR-text">
+            <div class="QR-text1">코로나19 전자출입명부 도입</div>
+            <div class="QR-text2">간단히 QR코드로 체크인 하세요!</div>
+          </div>
+          <div>
+            <a href="https://qr.naver.com/">
+              <img src="./images/phone.png" width="60px" class="phone">
+            </a>
+          </div>
+        </div>
+        <div class="X">X</div>
+      </div>
+      <!-- 날씨, NOW -->
+      <div class="bottom">
+        <div class="weather">
+        <a href="https://weather.naver.com/">
+          <img src="./images/cloud.png" width="45px">
+        </a>
+          <div class="weather-text">
+            <div class="wt1">8℃ 오선동</div>
+            <div class="wt2">초미세 좋음</div>
+          </div>
+        </div>
+        <div class="home">
+          <a href="https://naver.com/">
+            <img src="./images/home.png" width="60px">
+          </a>
+        </div>
+        <div class="now-live">
+          <div class="now-text">
+            <div class="now-text1">NOW</div>
+            <div class="now-text2">지금 방송중</div>
+          </div>
+          <img src="./images/now1.jpg" class="now-img1" width="50px">
+          <img src="./images/now2.jpg" class="now-img2" width="50px">
+        </div>
+      </div>
+
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
