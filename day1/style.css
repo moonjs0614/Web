@@ -1,0 +1,17 @@
+.test{
+    color: brown;
+}
+
+#test1{
+    color: green;
+}
+
+p{
+    color: yellow;
+}
+
+*{
+    font-size: 50px;
+}
+
+/* 보통 클래스와, 전역선택을 많이 사용함 */
