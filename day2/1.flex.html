@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a-wrapper{
+            height: 500px;
+            background-color: black;
+            display: flex;
+            /* 메인 축 정렬 */
+            /* justify-content: center; */
+            
+            /* 등간격 정렬 */
+            /* justify-content: space-between; */
+
+            /* 앞뒤 요소까지 모두 여유공간 두고 배치 */
+            /* justify-content: space-around; */
+
+            /* 교차 축 정렬 (교차 축 : 메인축에 수직인 축) */
+            /* align-items: center; */
+
+            /* 메인 축 변경 */
+            flex-direction: column;
+        }
+        .box{
+            width: 120px;
+            height: 120px;
+            background-color: red;
+            border: 1px solid orange;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b-wrapper{
+            margin-top: 40px;
+            background-color: beige;
+            height: 800px;
+            display: flex;
+            /* flex-wrap : 한 줄에 못담는 경우 줄넘김 처리 */
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="a-wrapper">
+        <div class="box">a</div>
+        <div class="box">a</div>
+        <div class="box">a</div>
+    </div>
+
+    <!-- box가 무수히 많은 예제 -->
+    <div class="b-wrapper">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>

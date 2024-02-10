@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(244, 248, 252);
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        select{
+            float: right;
+        }
+
+        .logo{
+            font-size: 150px;
+            color: #04CF5C;
+        }
+
+        .box{
+            width: 460px;
+            height:29px;
+            /* padding: 7px 35px 110px 11px; */
+            align-items: center;
+        }
+
+        .login{
+            background-color: #04CF5C;
+            color: white;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+
+</head>
+<body>
+    <select name="" id="">
+        <option value="한국어">한국어</option>
+        <option value="영어">영어</option>
+        <option value="일본어">일본어</option>
+    </select>
+    <div class="container">
+        <div class="logo">NAVER</div>
+        <div class="box"><input type="id" placeholder="아이디"></div><br>
+        <div class="box"><input type="password" placeholder="비밀번호"></div>
+        <div class="login" style="text-align: center;">로그인</div>
+        <div class="bottom">
+            <div><input type="checkbox">로그인 상태 유지</div>
+            <div>IP 보안 ON</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .notification-container{
+            border: 1px solid black;
+            width: 350px;
+            height: 50px;
+            display: flex;
+            font-size: 20px;
+            align-items: center;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+        }
+        .profile-name-wrapper{
+            display: flex;
+            align-items: center;
+        }
+        .name-img{
+            border-radius: 50%;
+        }
+        .email-wrapper{
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .email-notification{
+            position: absolute;
+            background-color: green;
+            font-size: 12px;
+            color: white;
+            top : -5px;
+            right: -15px;
+            border-radius: 10px;
+        }
+        .menu-wrapper{
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="notification-container">
+        <div class="profile-name-wrapper">
+            <img src="./shopping-basket.png" class="name-img" width="30px" height="30px">
+            <span>홍길동</span>
+        </div>
+        <div class="notification-wrapper">
+            <img src="./bell.png" width="30px" height="30px">
+        </div>
+        <div class="email-wrapper">
+            <img src="./envelope.png" width="30px" height="30px">
+            <div class="email-notification">99+</div>
+        </div>
+        <div class="menu-wrapper">
+            <img src="./menu-burger.png" width="30px" height="30px">
+        </div>
+    </div>
+</body>
+</html>

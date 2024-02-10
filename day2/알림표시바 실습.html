@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            height: 200px;
+            width: 100%;
+            align-items: center;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .img{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-size: cover;
+        }
+        .name{
+            height: 150px;
+            width: 150px;
+        }
+        .bell{
+            height: 150px;
+            width: 150px;
+        }
+        .msg{
+            height: 150px;
+            width: 150px;
+            position: relative;
+        }
+        .menu{
+            height: 150px;
+            width: 150px;
+        }
+        .box{
+            height: 80px;
+            width: 120px;
+            border-radius: 30%;
+            background-color: rgb(29, 219, 29);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -20%;
+            right: -20%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="img" style="background-size: cover;"><img src='./shopping-basket.png' width="100%"></div>
+        <div class="name"><h1 style="font-size: 50px; color:gray">문준석</h1></div>
+        <div class="bell"><img src='./bell.png' width=100%></div>
+        <div class="msg"><img src='./envelope.png' width=100%>
+            <div class="box">
+                <div style="font-size:45px; text-align: center;">99+</div>
+            </div>
+        </div>
+        <div class="menu"><img src="./menu-burger.png" width=100%></div>
+    </div>
+</body>
+</html>

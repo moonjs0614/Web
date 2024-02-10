@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* absolute : 부모가 position이 static이 아닌 요소가 있으면 그 부모가 기준점이 되는것
+        선언시 inline-block처럼 width가 줄어든다
+
+        fixed -> 원래 위치와 상관없이 최상단에 위치 지정 가능
+        absolute -> 원래 위치와 상관없이 최상단에 위치 지정가능, 단 가장 가까운 상위(3차원)요소 기준
+        */
+
+        .absolute{
+            background-color: blueviolet;
+            position: absolute;
+            right: 0;
+        }
+
+        .parent{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+        
+        .child{
+            background-color: aliceblue;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            right: -10px;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <!-- 부모 요소에 3차원이 없는 경우 -->
+    <div>
+        <div class="absolute">absolute</div>
+    </div>
+
+
+    <!-- 부모 요소에 3차원이 있는 경우 -->
+    <div class="parent">
+        <div class="child">child</div>
+    </div>
+
+</body>
+</html>

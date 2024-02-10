@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* z-index : 3차원 요소에만 동작, 크기가 클수록 우선순위 높다.
+        */
+
+        .box{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+        }
+        .box1{
+            background-color: red;
+            top: 20px;
+            left: 200px;
+            z-index: 10;
+        }
+        .box2{
+            background-color: blue;
+            top: 50px;
+            left: 260px;
+            z-index: 20;
+        }
+        .box3{
+            background-color: green;
+            top: 80px;
+            left: 230px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+</body>
+</html>

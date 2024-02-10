@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .fixed-class{
+            /* fixed -> layout을 고정, width 미지정 시 inline 처럼 줄어듬
+            상위 요소에 영향을 받지 않고 고정됨.
+
+            fixed를 부여하게 되면 inline block으로 성질이 바뀜.
+            컨텐츠의 양만큼 너비가 알아서 맞춰지게 됨.
+            */
+            position: fixed;
+            /* top, right, bottom, left */
+            right: 10px;
+            bottom: 10px;
+            border: 1px solid black;
+            width: 140px;
+        }
+        .height-class{
+            height: 4000px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="fixed-class">aaa</div>
+    <div class="height-class">bbb</div>
+</body>
+</html>
