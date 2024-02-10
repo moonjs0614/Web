@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    for (let i = 1; i < 6; i++)
+    {
+        let btn = document.createElement("button");
+        let text = document.createTextNode("버튼" + i);
+        // button.innerText = "버튼" + (i + 1);
+        btn.setAttribute("class", "bt");
+        btn.append(text);
+        document.querySelector("body").append(btn);
+        btn.addEventListener('click', hi);
+    }
+
+    function hi(){
+        let k = document.querySelector(".bt");
+        alert("안녕 " + k.textContent);
+    }
+
+</script>
+</html>
