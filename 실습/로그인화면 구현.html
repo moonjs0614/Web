@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            width: 80%;
+            height: 130px;
+            border-bottom: 1px solid black;
+            margin-bottom: 10px;
+        }
+
+        .warning{
+            background-color: red;
+            width: 100%;
+            height: 60px;
+            border-radius: 5px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .war-text{
+            margin-left: 10px;
+        }
+
+        .text1{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold
+        }
+
+        main{
+            width: 80%;
+            height: 330px;
+            border: 1px solid rgb(200, 200, 200);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sign{
+            width: 100%;
+            height: 40px;
+            border-bottom: 2px solid rgb(44, 108, 247);
+            text-align: center;
+            padding-top: 15px;
+            font-weight: bolder;
+        }
+
+        .id{
+            font-weight: bolder;
+            width: 90%;
+        }
+
+        .id-input{
+            width: 425px;
+            height: 30px;
+            margin-top: 3px;
+            border-radius: 5px;
+            border-color: rgb(200, 200, 200);
+        }
+
+        .pw{
+            font-weight: bolder;
+            width: 90%;
+        }
+
+        .pw-input{
+            width: 425px;
+            height: 30px;
+            margin-top: 3px;
+            border-radius: 5px;
+            border-color: rgb(200, 200, 200);
+        }
+
+        .check{
+            display: flex;
+            justify-content: space-between;
+            width: 425px;
+            height: 20px;
+        }
+
+        .forgot{
+            color: rgb(44, 108, 247)
+        }
+
+        .btn{
+            margin-bottom: 10px;
+            width: 425px;
+            height: 40px;
+            background-color: rgb(43, 160, 58);
+            color: white;
+            border-radius: 5px;
+            border-color: white;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="warning"><div class="war-text">Invalid Login or password</div></div>
+        <div class="text1">SSAFY 전용 Gitlab 시스템</div>
+    </header>
+
+    <main>
+        <div class="sign">Sign in</div>
+
+        <div class="id">
+            <div>Username or Email</div>
+            <input type="id" class="id-input">
+        </div>
+
+        <div class="pw">
+            <div>Password</div>
+            <input type="pw" class="pw-input">
+        </div>
+
+        <div class="check">
+            <div>
+                <input type="checkbox">Remember me</input>
+            </div>
+            <div class="forgot">Forgot your password?</div>
+        </div>
+
+        <button class="btn">Sign in</button>
+    </main>
+</body>
+</html>

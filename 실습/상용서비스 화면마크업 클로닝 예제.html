@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header{
+            width: 50%;
+            height: 55px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header > img{
+            width: 60px;
+        }
+
+        .main{
+            width: 50%;
+            height: 640px;
+        }
+
+        .fixed{
+            position: relative;
+            width: 50%;
+            height: 100px;
+        }
+
+        .images{
+            width: 100%;
+            height: 342px;
+            position: relative;
+        }
+
+        .main-img1{
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .main-img2{
+            width: 200px;
+            position: absolute;
+            top: 35%;
+            transform: translate(-190%);
+        }
+
+        .first{
+            margin-top: 50px;
+        }
+
+        .second{
+            margin-top: 10px;
+            padding: 10px 0;
+            background-color:rgb(245, 245, 245);
+        }
+
+        .third{
+            margin-top: 10px;
+            padding: 10px 0;
+            background-color:rgb(245, 245, 245);
+        }
+
+        .footer{
+            margin-top: -15px;;
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:rgb(245, 245, 245);
+        }
+
+        .mulcam{
+            width: 200px;
+        }
+
+        .nodong{
+            margin-top: 5px;;
+            width: 200px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .ju{
+            font-size: larger;
+            margin-left: 10px;
+        }
+
+        .hu{
+            font-size: larger;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="./images/ssafy.png">
+        <img src="./images/menu.jpg">
+    </header>
+
+    <main class="main">
+        <div class="images">
+            <img src="./images/main-image1.jpg" class="main-img1">
+            <img src="./images/main-image2.png" class="main-img2">
+        </div>
+        <div class="first">
+            <div>삼성청년 SW아카데미</div>
+            <div style="font-weight:bold">대한민국 SW의 미래를 이끕니다</div>
+        </div>
+        <div class="second">
+            <div style="font-weight: bold;">삼성의 SW 교육 경험과 고용노동부의 취업 지원 노하우를 바탕으로, 취업 준비생에게 SW 역량 향상 교육 및 다양한 취업지원 서비스를 제공하여 취업에 성공하도록 돕는 프로그램입니다</div>
+        </div>
+        <div class="third">
+            <div>본 교육과정은 삼성이 주관하고 고용노동부가 후원하며, 아이들과 미래재단이 함께합니다.</div>
+            <div>(교육운영은 멀티캠퍼스에서 위탁 실시)</div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div style="font-weight: bold" class="ju">주관</div>
+        <div><img src="./images/mulcam.jpg" class="mulcam"></div>
+        <div style="font-weight: bold;" class="hu">후원</div>
+        <div><img src="./images/nodong.png" class="nodong"></div>
+    </footer>
+
+</body>
+</html>
